@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "accuracy": 0.9904,
+      "macro_precision": 0.9815,
+      "macro_recall": 0.9664,
+      "macro_f1": 0.972,
+      "weighted_precision": 0.9906,
+      "weighted_recall": 0.9904,
+      "weighted_f1": 0.9904,
+      "model_name": "Random_Forest",
+      "train_time_sec": 5.21
+    },
+    {
+      "accuracy": 0.9822,
+      "macro_precision": 0.8501,
+      "macro_recall": 0.8727,
+      "macro_f1": 0.8608,
+      "weighted_precision": 0.9809,
+      "weighted_recall": 0.9822,
+      "weighted_f1": 0.9814,
+      "model_name": "Decision_Tree",
+      "train_time_sec": 5.26
+    },
+    {
+      "accuracy": 0.6913,
+      "macro_precision": 0.4443,
+      "macro_recall": 0.7874,
+      "macro_f1": 0.47,
+      "weighted_precision": 0.9138,
+      "weighted_recall": 0.6913,
+      "weighted_f1": 0.7556,
+      "model_name": "Logistic_Regression",
+      "train_time_sec": 6.93
+    }
+  ],
+  "best_model": {
+    "accuracy": 0.9904,
+    "macro_precision": 0.9815,
+    "macro_recall": 0.9664,
+    "macro_f1": 0.972,
+    "weighted_precision": 0.9906,
+    "weighted_recall": 0.9904,
+    "weighted_f1": 0.9904,
+    "model_name": "Random_Forest",
+    "train_time_sec": 5.21
+  }
+}

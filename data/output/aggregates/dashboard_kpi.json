@@ -1,0 +1,11 @@
+{
+  "total_records": 11237,
+  "total_benign": 5882,
+  "total_attacks": 5355,
+  "attack_percentage": 47.66,
+  "distinct_attack_types": 10,
+  "best_model_name": "Random_Forest",
+  "best_model_macro_f1": 0.972,
+  "best_model_accuracy": 0.9904,
+  "best_model_train_time": 6.62
+}

@@ -1,0 +1,8 @@
+{
+  "total_records": 11237,
+  "total_benign": 5882,
+  "total_attacks": 5355,
+  "attack_percentage": 47.66,
+  "distinct_labels": 11,
+  "distinct_attack_types": 10
+}

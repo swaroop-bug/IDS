@@ -1,0 +1,12 @@
+Label,is_attack,count,percentage
+BENIGN,0,5882,52.3449
+DoS Hulk,1,1984,17.656
+PortScan,1,1637,14.5679
+DDoS,1,1304,11.6045
+DoS GoldenEye,1,113,1.0056
+FTP-Patator,1,82,0.7297
+DoS slowloris,1,69,0.614
+SSH-Patator,1,61,0.5428
+DoS Slowhttptest,1,58,0.5162
+Web Attack,1,25,0.2225
+Bot,1,22,0.1958

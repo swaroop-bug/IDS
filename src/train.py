@@ -81,9 +81,10 @@ def evaluate_predictions(
     precisions, recalls, f1s = [], [], []
 
     for idx, name in zip(labels, label_names):
-        p = float(metrics.precision(idx))
-        r = float(metrics.recall(idx))
-        f1 = float(metrics.fMeasure(idx))
+        label_float = float(idx)
+        p = float(metrics.precision(label_float))
+        r = float(metrics.recall(label_float))
+        f1 = float(metrics.fMeasure(label_float))
         per_class[name] = {
             "precision": round(p, 4),
             "recall": round(r, 4),
