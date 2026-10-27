@@ -1,4 +1,0 @@
-fraction,record_count,pyspark_time_sec,sklearn_time_sec,sklearn_status,speedup_factor
-0.05,573,7.25,0.12,Success,0.02
-0.15,1681,3.36,0.12,Success,0.04
-0.3,3411,3.52,0.11,Success,0.03
